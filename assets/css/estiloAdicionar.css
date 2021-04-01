@@ -1,0 +1,62 @@
+.container-fluid{
+    background-image: linear-gradient(to top right, rgb(110, 14, 235), rgb(128, 4, 76));   
+}
+.row{
+    height: 100vh;
+}
+
+.textoEsquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+.col-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.teste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px 30px 30px 100px;
+    width: 700px;
+    height: 450px;
+    background-color: whitesmoke;
+}
+
+.form-group{
+    width: 250px;
+    margin: 20px 0px;
+    margin-left: 60px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.textoFormularioInterno{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.botaoFormularioInterno{
+    margin-left: 170px;
+    padding: 0px;
+}

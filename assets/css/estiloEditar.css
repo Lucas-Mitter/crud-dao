@@ -1,0 +1,39 @@
+.container-fluid{
+    background-image: linear-gradient(to top right, rgb(4, 8, 231), rgb(9, 194, 226));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px 100px 100px 100px;
+    width: 700px;
+    height: 450px;
+    background-color: whitesmoke;
+}
+
+.form-group{
+    width: 250px;
+    margin: 20px 0px;
+    margin-left: 60px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.textoFormularioInterno{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.botaoFormularioInterno{
+    margin-left: 170px;
+    padding: 0px;
+}
